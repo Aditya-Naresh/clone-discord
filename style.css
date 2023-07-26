@@ -1,0 +1,340 @@
+.container{
+    background-color: black;
+    width: 2000px;
+    height: 1000px;
+    display: flex;
+    margin: 0%;
+    padding: 0;
+}
+
+/* First Column  */
+.servers{
+    width: 5%;
+    height: 100%;
+    background-color: #282c33;
+    margin: 0;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.icon{
+    height: 50px;
+    width: 50px;
+    align-self: center;
+}
+
+.icon img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+
+.server_icon{
+    height: 60px;
+    width: 60px;
+    align-self: center;
+}
+
+
+.server_icon img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+
+
+.addServer{
+    height: 60px;
+    width: 60px;
+    margin-top: 5px;
+    margin-left: 20px;
+    background-color: #40554c;
+    border-radius: 50%;
+   
+}
+.addServer:hover{
+    background-color: rgb(81, 219, 81);
+    border-radius: 20px;
+    
+}
+.addServer:hover span{
+    color: #fafbfc;
+}
+.explore{
+    height: 60px;
+    width: 60px;
+    margin-top: 5px;
+    margin-left: 20px;
+    background-color: #40554c;
+    border-radius: 50%;
+}
+/* Icons  */
+.serverbuttons span{
+    color: rgb(81, 219, 81);
+    margin-left: 17.5px;
+    margin-top: 20px;
+}
+
+
+.explore:hover{
+    background-color: rgb(81, 219, 81);
+    border-radius: 20px;
+    
+}
+
+.explore:hover span{
+    color: #fafbfc;
+}
+
+/* Second Column  */
+
+.second_col{
+    width: 10%;
+    height: 100%;
+    background-color: #212325;
+    align-items: center;
+    font-size: 12px;
+}
+/* Find Conversation  */
+.find_conv{
+    width: 90%;
+    margin: auto;
+    height: 30px;
+    margin-bottom: 15px;
+}
+
+.find_conv input{
+    background-color: #282c33;
+    color: aliceblue;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+
+/* Friends  */
+.friends{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.friends:hover{
+    cursor: pointer;
+    background-color: #404744;
+
+}
+.friends_logo{
+    height: 30px;
+    width: 30px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.friends_logo img{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    
+}
+
+.friends h4{
+    color: #c5cbd4;
+}
+
+/* Nitro  */
+
+.nitro{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nitro:hover{
+    background-color: #404744;
+    cursor: pointer;
+}
+.nitro_logo{
+    height: 40px;
+    width: 40px;
+    margin-top: 5px;
+    
+}
+
+.nitro_logo img{
+    height: 100%;
+    width: 100%;
+}
+
+.nitro h4{
+    color: #c5cbd4;
+}
+
+
+/* Direct Messages  */
+
+.direct_messages{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5px;
+    padding-right: 10px;
+}
+
+.direct_messages h4{
+    margin-top: auto;
+    color: #94979c;
+}
+
+.direct_messages h2{
+    color: #94979c;
+}
+
+/* Friend  */
+
+.friends{
+    display: flex;
+    flex-direction: row;
+}
+
+.friend{
+    display: flex;
+}
+
+.friendLogo{
+    height: 50px;
+    width: 50px;
+    margin-right: 15px;
+}
+
+.friendLogo img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.friendName{
+    color: #94979c;
+}
+
+
+
+
+/* Third Column  */
+
+.third_col{
+    width: 65%;
+    height: 100%;
+    background-color: #373a40;
+    border-right: 2px solid #373a40
+}
+.thirdColMenu a{
+    cursor: pointer;
+    text-decoration: none;
+    color: #fafbfc;
+
+}
+.thirdColMenu a:hover{
+    background-color: #71747c;
+}
+.thirdColMenu button{
+    cursor: pointer;
+
+}
+.thirdColMenu{
+    height: 5%;
+    width: 100%;
+    background-color: #373a40;
+    border-bottom: 2px solid #0b0c0e;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menuitem{
+    color: #fafbfc;
+    margin: 10px;
+    font-size: 16px;
+}
+
+.addfriend{
+    background-color: rgb(35, 128, 35);
+    color: #fafbfc;
+    border: 0.5px;
+    height: 20px;
+    font-size: 16px;
+}
+
+.thirdColBody{
+    height: 95%;
+    width: 100%;
+    border-right: 2px solid #3c3f46;
+}
+.thirdColBody img{
+    height: 100%;
+    width: 99%;
+}
+
+/* Fourth Column */
+.fourth_col{
+    background-color: #373a40;
+    width: 20%;
+}
+
+.fourthColMenu{
+    background-color: aqua;
+    height: 5%;
+    display:flex ;
+    justify-content: flex-end;
+    background-color: #373a40;
+    border-bottom: 2px solid #0b0c0e;
+}
+
+.fourthColMenu span{
+    color: #9ca4acea;
+}
+
+.fourthColMenu span:hover{
+    cursor: pointer;
+    color: #fafbfc;
+}
+
+.message{
+    border-right: 1px solid rgba(255, 255, 255, 0.425);
+    padding-right: 10px;
+    margin: 10px;
+
+}
+
+.message span{
+    margin-left: 1px;
+}
+
+.inbox{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.help{
+    margin: 10px;
+
+}
+
+.fouthColBody{
+    height: 95%;
+    background-color: #373a40;
+    color: #fafbfc;
+    display: flex;
+    flex-direction: column;
+}
+
+.header2{
+    align-self: center;
+}
+
+.para{
+    align-self: center;
+}
+
